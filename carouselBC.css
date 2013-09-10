@@ -1,0 +1,144 @@
+#carouselBC {
+	height: 280px;
+	width: 344px;
+	position: relative;
+}
+
+#bigPicContainer {
+	height: 225px;
+	width: 338px;
+	position: absolute;
+	right: 3px;
+}
+
+#bigButtonLeft {
+	height: 0px;
+	width: 0px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid #4458C9;
+	top: 105px;
+	position: absolute;
+}
+
+#bigButtonLeft:hover {
+    border-right: 15px solid #AD1347;
+}
+
+#bigPicDiv {
+	height: 225px;
+	width: 300px;
+	right: 20px;
+	position: absolute;
+}
+
+#bigPicImg {
+	height: 225px;
+	width: 300px;
+}
+
+#bigButtonRight {
+	height: 0px;
+	width: 0px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid #4458C9;
+	margin-left: 321px;
+	top: 105px;
+	position: absolute;
+}
+
+#bigButtonRight:hover {
+    border-left: 15px solid #AD1347;
+}
+
+#bigPicHeader {
+	height: 24px;
+	width: 300px;
+	bottom: -1px;
+	display: none;
+	background: none repeat scroll 0 0 #FFFFFF;
+	opacity: 0.6;
+	position: absolute;
+	text-align: center;
+	z-index: 5;
+}
+
+#scrollablePics {
+	height: 49px;
+	width: 344px;
+	position: absolute;
+	top: 230px;
+}
+
+#smallButtonLeft {
+	height: 0px;
+	width: 0px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #4458C9;
+	display: inline-block;
+	margin-bottom: 17px;
+}
+
+#smallButtonLeft:hover {
+    border-right: 10px solid #AD1347;
+}
+
+.smallPicCont {
+	height: 45px;
+	width: 60px;
+	display: inline-block;
+	margin: 2px;
+	position: relative;
+}
+
+.smallPic {
+	height: 45px;
+	width: 60px;
+	border: 2px solid transparent;
+}
+
+.smallPicCont:hover {
+  -moz-box-shadow:    3px 3px 5px 0px #827076;
+  -webkit-box-shadow: 3px 3px 5px 0px #827076;
+  box-shadow:         3px 3px 5px 0px #827076;
+}
+
+#smallButtonRight {
+	height: 0px;
+	width: 0px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid #4458C9;
+	display: inline-block;
+	margin-bottom: 17px;
+	margin-left: 4px;
+}
+
+#smallButtonRight:hover {
+    border-left: 10px solid #AD1347;
+}
+
+.smallHeader {
+	height: 14px;
+	width: 60px;
+	bottom: -2px;
+	left: 2px;
+	display: none;
+	background: none repeat scroll 0 0 #FFFFFF;
+	opacity: 0.6;
+	position: absolute;
+	text-align: center;
+	z-index: 5;
+}
+
+.smallHeader p {
+	position: absolute;
+	bottom: -19px;
+	text-align: center;
+}
+
+.highlightCarousel {
+	border: 2px solid #B39C39;
+}
